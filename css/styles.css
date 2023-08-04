@@ -1,0 +1,140 @@
+body {
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: auto;
+}
+
+/** header **/
+.navbar {
+    background-color: rgb(250, 247, 247);
+}
+.navbar-brand-logo {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.nav-pills .nav-link.active {
+    background-color: #eee;
+}
+
+/** END header **/
+
+/** home page **/
+/************************* professor.html ****************************/
+.portrait-prof {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+.portrait-title {
+    margin-top: 30px;
+    text-align: center;
+}
+#resInt, #edu {
+    font-size: 18pt;
+    font-weight: 500;
+    padding: 10px;
+}
+.section ul {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+/************************* professor.html END ****************************/
+/************************* research.html ****************************/
+.section {
+    padding: 40px;
+}
+/************************* research.html END ****************************/
+
+/************************* member.html ****************************/
+h2.h2-section {
+    padding: 20px;
+    background-color: rgb(233, 245, 255);
+}
+.student {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#student-photo {
+    margin: auto;
+}
+.portrait-stud {
+    display: block;
+    margin: auto;
+}
+#student-description {
+    margin: auto;
+}
+
+@media (max-width: 1199.98px) { /** (desktops, less than 1200px) **/
+    
+    .col-sm-5 {
+        width: 80%;
+    }
+    .img-thumbnail {
+        max-width:fit-content;
+    }
+}
+/************************* member.html END ****************************/
+
+/************************* contact.html ****************************/
+#main-content {
+    margin-top: 50px;
+}
+#map-tile {
+    width: 400px;
+    height: 300px;
+    padding: 0;
+    position: relative;
+}
+
+#map-tile #map {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: darkgrey;
+    color: #fff;
+    opacity: .8;
+}
+
+#description-tile-contact {
+    margin: auto;
+}
+#description-tile-contact ul ul {
+    margin-bottom: 20px;
+}
+#location, #phone, #email, #developer {
+    margin-left: 20px;
+
+}
+
+@media (max-width: 1400px) { /** for large devices only **/
+    #description-tile-contact {
+        margin: 30px 0 0 0;
+        padding: 0;
+    }
+    #description-tile-contact ul ul {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+}
+
+/************************* contact.html END ****************************/
+
+/** END home page **/
+
+/** footer **/
+.panel-footer {
+    padding: 30px;
+    background-color: rgb(250, 247, 247);
+}
+#main-footer-description {
+    margin: auto;
+}
+
+/** END footer **/
