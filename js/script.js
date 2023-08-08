@@ -57,7 +57,7 @@ $(function () {
             function (publicationHtml) {
                 var publicationViewHtml = buildPublicationViewHtml (
                     categories, publicationHtml);
-                    insertHtml("#insert-content", publicationViewHtml);
+                    insertHtml("table-group-divider", publicationViewHtml);
             },
             false
         );
