@@ -1,0 +1,108 @@
+<!-- Lec 61 - Part 2-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>BDA Lab</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- font -->
+        <!-- 1. basic -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!-- automatically collapses at the lg breakpoint. -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <!-- TO DO: Replace the text with Image & Text. -->
+                    <a class="navbar-brand-logo" href="index.html">
+                        <img src="image/LabLogo.png" alt="Logo" width="60" height="60">
+                    </a>
+                    <a class="navbar-brand" href="index.html">Bio Data Analysis Lab  </a>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end d-flex p-2" tabindex="-1" id="navbarContent">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title">Menu</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav nav-pills nav-fill">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li id="professor" class="nav-item"><a class="nav-link" href="professor.html">Professor</a></li>
+                                <li id="research" class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                                <li id="publications" class="nav-item"><a class="nav-link active" aria-current="page" href="publication.html">Publications</a></li>
+                                <li id="members" class="nav-item"><a class="nav-link" href="member.html">Members</a></li>
+                                <li id="contact" class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div> <!-- END container-fluid -->
+            </nav> <!-- END navbar -->         
+        </header> <!-- END header -->
+
+
+
+        <div id="main-content" class="container">
+            <div id="pub-info" class="row">
+                <table class="table">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th scope="col"></th>
+                            <th scope="col">Year</th>
+                            <th scope="col">Journal</th>
+                            <th scope="col">Title</th>
+                        </tr>
+                    </thead>
+                    <tbody id="insert-content" class="table-group-divider">
+                        <tr>
+                            <th scope="row">{{number}}</th>
+                            <td>{{year}}</td>
+                            <td>{{journal}}</td>
+                            <td>{{title}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div> <!-- END main -->
+
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <div id="main-footer-description" class="col-md-7">
+                        <div class="text-center" style="color: #888;">&copy; Copyright 2023 Bio Data Analysis Laboratory</div>
+                        <div class="text-center" style="color: #888;">Dept. of Life Science, Handong Global University, Republic of Korea</div>
+                    </div>
+                    <div id="main-footer-logo" class="col-md-5">
+                        <img class="rounded mx-auto d-none d-sm-none d-md-block" src="image/handong.png" width="80" height="80">
+                    </div>
+                </div>
+            </div>
+            
+        </footer> <!-- END footer -->
+
+
+
+        <!-- jQuery (Bootstrap JS plugins depend on it) -->
+        <script src="js/jquery-3.7.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/ajax-utils.js"></script>
+        <script src="js/script.js"></script>
+        
+
+    </body>
+
+</html>

@@ -7,6 +7,7 @@ body {
 /** header **/
 .navbar {
     background-color: rgb(250, 247, 247);
+    margin-bottom: 50px;
 }
 .navbar-brand-logo {
     margin-left: 10px;
@@ -44,12 +45,13 @@ body {
 /************************* professor.html END ****************************/
 /************************* research.html ****************************/
 .section {
-    padding: 40px;
+    padding: 20px;
 }
 /************************* research.html END ****************************/
 
 /************************* member.html ****************************/
 h2.h2-section {
+    /*margin: 30px;*/
     padding: 20px;
     background-color: rgb(233, 245, 255);
 }
@@ -80,8 +82,11 @@ h2.h2-section {
 /************************* member.html END ****************************/
 
 /************************* contact.html ****************************/
-#main-content {
-    margin-top: 50px;
+
+#contact-info {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
 }
 #map-tile {
     width: 400px;
@@ -115,12 +120,29 @@ h2.h2-section {
 
 @media (max-width: 1400px) { /** for large devices only **/
     #description-tile-contact {
-        margin: 30px 0 0 0;
-        padding: 0;
+        margin: 0px 30px 0px 30px;
+        padding: 10px;
     }
     #description-tile-contact ul ul {
         margin-bottom: 20px;
         padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-8 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    #map-tile {
+        display: block;
+        margin: auto;
+    }
+    #description-tile-contact {
+        display: block;
+        margin: 50px 0 0 0;
     }
 }
 
@@ -130,6 +152,7 @@ h2.h2-section {
 
 /** footer **/
 .panel-footer {
+    margin-top: 50px;
     padding: 30px;
     background-color: rgb(250, 247, 247);
 }

@@ -1,144 +1,167 @@
 [
   {
-    "1": {
-      "Year": 2023,
-      "Journal": "Brain, Behavior, and Immunity",
-      "Title": "Correlation between immune-related genes and depression-like features in an animal model and in humans."
-    },
-    "2": {
-      "Year": 2023,
-      "Journal": "Biomolecules & Therapeutics",
-      "Title": "Minoxidil Regulates Aging-Like Phenotypes in Rat Cortical Astrocytes In Vitro."
-    },
-    "3": {
-      "Year": 2022,
-      "Journal": "Scientific Reports",
-      "Title": "Pirenperone relieves the symptoms of fragile X syndrome in Fmr1 knockout mice."
-    },
-    "4": {
-      "Year": 2022,
-      "Journal": "Cancer Letters",
-      "Title": "Integrated analysis of ascites and plasma extracellular vesicles identifies a miRNA-based diagnostic signature in ovarian cancer."
-    },
-    "5": {
-      "Year": 2021,
-      "Journal": "International Journal of Molecular Sciences",
-      "Title": "Classification and functional analysis between cancer and normal tissues using explainable pathway deep learning through RNA-sequencing gene expression."
-    },
-    "6": {
-      "Year": 2021,
-      "Journal": "Journal of Personalized Medicine",
-      "Title": "Deep learning for integrated analysis of insulin resistance with multi-omics data."
-    },
-    "7": {
-      "Year": 2020,
-      "Journal": "International Journal of Data Mining and Bioinformatics",
-      "Title": "Ensemble of deep learning models to predict platinum resistance in high grade serous ovarian cancer."
-    },
-    "8": {
+    "Number" : 1,
+    "Year": 2023,
+    "Journal": "Brain, Behavior, and Immunity",
+    "Title": "Correlation between immune-related genes and depression-like features in an animal model and in humans."
+  },
+  {
+    "Number" : 2,
+    "Year": 2023,
+    "Journal": "Biomolecules & Therapeutics",
+    "Title": "Minoxidil Regulates Aging-Like Phenotypes in Rat Cortical Astrocytes In Vitro."
+  },
+  {
+    "Number" : 3,
+    "Year": 2022,
+    "Journal": "Scientific Reports",
+    "Title": "Pirenperone relieves the symptoms of fragile X syndrome in Fmr1 knockout mice."
+  },
+  {
+    "Number" : 4,
+    "Year": 2022,
+    "Journal": "Cancer Letters",
+    "Title": "Integrated analysis of ascites and plasma extracellular vesicles identifies a miRNA-based diagnostic signature in ovarian cancer."
+  },
+  {
+    "Number" : 5,
+    "Year": 2021,
+    "Journal": "International Journal of Molecular Sciences",
+    "Title": "Classification and functional analysis between cancer and normal tissues using explainable pathway deep learning through RNA-sequencing gene expression."
+  },
+  {
+    "Number" : 6,
+    "Year": 2021,
+    "Journal": "Journal of Personalized Medicine",
+    "Title": "Deep learning for integrated analysis of insulin resistance with multi-omics data."
+  },
+  {
+    "Number" : 7,
+    "Year": 2020,
+    "Journal": "International Journal of Data Mining and Bioinformatics",
+    "Title": "Ensemble of deep learning models to predict platinum resistance in high grade serous ovarian cancer."
+  },
+  { "Number" : 8,
       "Year": 2020,
       "Journal": "International Journal of Data Mining and Bioinformatics",
       "Title": "Deep learning-based classification and interpretation of gene expression data from cancer and normal tissues."
-    },
-    "9": {
-      "Year": 2019,
-      "Journal": "International journal of molecular sciences",
-      "Title": "A deep learning model for cell growth inhibition IC50 prediction and its application for gastric cancer patients."
-    },
-    "10": {
-      "Year": 2019,
-      "Journal": "Journal of Biological Chemistry",
-      "Title": "Evolution of the multi-tRNA synthetase complex and its role in cancer."
-    },
-    "11": {
-      "Year": 2019,
-      "Journal": "Biomolecules & Therapeutics",
-      "Title": "Effects of intraperitoneal N-methyl-D-aspartate (NMDA) administration on nociceptive/repetitive behaviors in juvenile mice."
-    },
-    "12": {
-      "Year": 2018,
-      "Journal": "International Journal of Data Mining and Bioinformatics",
-      "Title": "Predicting survival outcomes in ovarian cancer using gene expression data."
-    },
-    "13": {
-      "Year": 2018,
-      "Journal": "The International journal of advanced culture technology",
-      "Title": "Reverting gene expression pattern of cancer into normal-like using cycle-consistent adversarial network."
-    },
-    "14": {
-      "Year": 2018,
-      "Journal": "Genomics & informatics",
-      "Title": "Storing Digital Information in Long-Read DNA."
-    },
-    "15": {
-      "Year": 2018,
-      "Journal": "Genomics & informatics",
-      "Title": "Ovarian Cancer Prognostic Prediction Model Using RNA Sequencing Data."
-    },
-    "16": {
-      "Year": 2017,
-      "Journal": "Oncotarget",
-      "Title": "Acquired resistance to LY2874455 in FGFR2-amplified gastric cancer through an emergence of novel FGFR2-ACSL5 fusion."
-    },
-    "17": {
-      "Year": 2016,
-      "Journal": "International Journal of Data Mining and Bioinformatics",
-      "Title": "Estimating functional coupling between cancer gene sub-networks using novel interaction measures."
-    },
-    "18": {
-      "Year": 2016,
-      "Journal": "Cancer Research",
-      "Title": "Prognostication of HER family gene expression collaborate with ESR1 expression in patients with triple negative breast cancer."
-    },
-    "19": {
-      "Year": 2015,
-      "Journal": "Journal of Biomedical Informatics",
-      "Title": "Practical approach to determine sample size for building logistic prediction models using high-throughput data."
-    },
-    "20": {
-      "Year": 2015,
-      "Journal": "Oncotarget",
-      "Title": "Mutational profiling of brain metastasis from breast cancer: matched pair analysis of targeted sequencing between brain metastasis and primary breast cancer."
-    },
-    "21": {
-      "Year": 2015,
-      "Journal": "BMC cancer",
-      "Title": "Exploratory biomarker analysis for treatment response in KRAS wild type metastatic colorectal cancer patients who received cetuximab plus irinotecan."
-    },
-    "22": {
-      "Year": 2015,
-      "Journal": "Oncotarget",
-      "Title": "Role of HER2 mutations in refractory metastatic breast cancers: targeted sequencing results in patients with refractory breast cancer."
-    },
-    "23": {
-      "Year": 2015,
-      "Journal": "Oncotarget",
-      "Title": "The NEXT-1 (Next generation pErsonalized tX with mulTi-omics and preclinical model) trial: prospective molecular screening trial of metastatic solid cancer patients, a feasibility analysis."
-    },
-    "24": {
-      "Year": 2015,
-      "Journal": "Oncotarget",
-      "Title": "Patient-derived cell models as preclinical tools for genome-directed targeted therapy."
-    },
-    "25": {
-      "Year": 2015,
-      "Journal": "Oncotarget",
-      "Title": "Molecular characterization of patients with pathologic complete response or early failure after neoadjuvant chemotherapy for locally advanced breast cancer using next generation sequencing and nCounter assay."
-    },
-    "26": {
-      "Year": 2015,
-      "Journal": "Oncogene",
-      "Title": "Synthetic lethal screening reveals FGFR as one of the combinatorial targets to overcome resistance to Met-targeted therapy."
-    },
-    "27": {
-      "Year": 2014,
-      "Journal": "Bioinformatics",
-      "Title": "Personalized identification of altered pathways in cancer using accumulated normal tissue data."
-    },
-    "28": {
-      "Year": 2014,
-      "Journal": "BioMed Research International",
-      "Title": "Pathway-driven discovery of rare mutational impact on cancer."
-    }
+  },
+  {
+    "Number" : 9,
+    "Year": 2019,
+    "Journal": "International journal of molecular sciences",
+    "Title": "A deep learning model for cell growth inhibition IC50 prediction and its application for gastric cancer patients."
+  },
+  {
+    "Number" : 10,
+    "Year": 2019,
+    "Journal": "Journal of Biological Chemistry",
+    "Title": "Evolution of the multi-tRNA synthetase complex and its role in cancer."
+  },
+  {
+    "Number" : 11,
+    "Year": 2019,
+    "Journal": "Biomolecules & Therapeutics",
+    "Title": "Effects of intraperitoneal N-methyl-D-aspartate (NMDA) administration on nociceptive/repetitive behaviors in juvenile mice."
+  },
+  {
+    "Number" : 12,
+    "Year": 2018,
+    "Journal": "International Journal of Data Mining and Bioinformatics",
+    "Title": "Predicting survival outcomes in ovarian cancer using gene expression data."
+  },
+  {  
+    "Number" : 13,
+    "Year": 2018,
+    "Journal": "The International journal of advanced culture technology",
+    "Title": "Reverting gene expression pattern of cancer into normal-like using cycle-consistent adversarial network."
+  },
+  {
+    "Number" : 14,
+    "Year": 2018,
+    "Journal": "Genomics & informatics",
+    "Title": "Storing Digital Information in Long-Read DNA."
+  },
+  { "Number" : 15,
+    "Year": 2018,
+    "Journal": "Genomics & informatics",
+    "Title": "Ovarian Cancer Prognostic Prediction Model Using RNA Sequencing Data."
+  },
+  {
+    "Number" : 16,
+    "Year": 2017,
+    "Journal": "Oncotarget",
+    "Title": "Acquired resistance to LY2874455 in FGFR2-amplified gastric cancer through an emergence of novel FGFR2-ACSL5 fusion."
+  },
+  {
+    "Number" : 17,
+    "Year": 2016,
+    "Journal": "International Journal of Data Mining and Bioinformatics",
+    "Title": "Estimating functional coupling between cancer gene sub-networks using novel interaction measures."
+  },
+  {
+    "Number" : 18,
+    "Year": 2016,
+    "Journal": "Cancer Research",
+    "Title": "Prognostication of HER family gene expression collaborate with ESR1 expression in patients with triple negative breast cancer."
+  },
+  {
+    "Number" : 19,
+    "Year": 2015,
+    "Journal": "Journal of Biomedical Informatics",
+    "Title": "Practical approach to determine sample size for building logistic prediction models using high-throughput data."
+  },
+  {
+    "Number" : 20,
+    "Year": 2015,
+    "Journal": "Oncotarget",
+    "Title": "Mutational profiling of brain metastasis from breast cancer: matched pair analysis of targeted sequencing between brain metastasis and primary breast cancer."
+  },
+  {
+    "Number" : 21,
+    "Year": 2015,
+    "Journal": "BMC cancer",
+    "Title": "Exploratory biomarker analysis for treatment response in KRAS wild type metastatic colorectal cancer patients who received cetuximab plus irinotecan."
+  },
+  {
+    "Number" : 22,
+    "Year": 2015,
+    "Journal": "Oncotarget",
+    "Title": "Role of HER2 mutations in refractory metastatic breast cancers: targeted sequencing results in patients with refractory breast cancer."
+  },
+  {
+    "Number" : 23,
+    "Year": 2015,
+    "Journal": "Oncotarget",
+    "Title": "The NEXT-1 (Next generation pErsonalized tX with mulTi-omics and preclinical model) trial: prospective molecular screening trial of metastatic solid cancer patients, a feasibility analysis."
+  },
+  { "Number" : 24,
+    "Year": 2015,
+    "Journal": "Oncotarget",
+    "Title": "Patient-derived cell models as preclinical tools for genome-directed targeted therapy."
+  },
+  {
+    "Number" : 25,
+    "Year": 2015,
+    "Journal": "Oncotarget",
+    "Title": "Molecular characterization of patients with pathologic complete response or early failure after neoadjuvant chemotherapy for locally advanced breast cancer using next generation sequencing and nCounter assay."
+  },
+  {
+    "Number" : 26,
+    "Year": 2015,
+    "Journal": "Oncogene",
+    "Title": "Synthetic lethal screening reveals FGFR as one of the combinatorial targets to overcome resistance to Met-targeted therapy."
+  },
+  {
+    "Number" : 27,
+    "Year": 2014,
+    "Journal": "Bioinformatics",
+    "Title": "Personalized identification of altered pathways in cancer using accumulated normal tissue data."
+  },
+  {
+    "Number" : 28,
+    "Year": 2014,
+    "Journal": "BioMed Research International",
+    "Title": "Pathway-driven discovery of rare mutational impact on cancer."
   }
 ]
