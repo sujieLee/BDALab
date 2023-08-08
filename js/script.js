@@ -25,12 +25,14 @@ $(function () {
         insertHtml(selector, html);
     };
 
+    /*
     // Return substitute of "{{propName}}" with propValue in given "string"
     var insertProperty = function (string, propName, propValue) {
         var propToReplace = "{{" + propName + "}}";
         string = string.replace(new RegExp(propToReplace, "g"), propValue);
         return string;
     }
+    */
     // On page load (before images or CSS)
     document.addEventListener("DOMContentLoaded", 
         function (event) {
@@ -47,7 +49,7 @@ $(function () {
             */
         }
     );
-
+    /*
     bdal.loadPublication = function () {
         $ajaxUtils.sendGetRequest(publicationUrl, buildAndShow);
     };
@@ -79,7 +81,7 @@ $(function () {
 
         }
     }
-
+    */
     global.$bdal = bdal;
 
 }) (window);
