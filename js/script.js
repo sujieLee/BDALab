@@ -1,13 +1,3 @@
-
-$(function () {
-    $("#navbarToggle").blur(function (event) {
-        var screenWidth = window.innerWidth;
-        if (screenWidth <= 992) {
-            $("#navbarContent").collapse('hide');
-        }
-    });
-});
-
 (function (global) { /* IIFE : immediately invoked function exp */
 
     var bdal = {};
