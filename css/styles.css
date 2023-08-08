@@ -41,13 +41,18 @@ body {
     padding-left: 50px;
     padding-top: 10px;
 }
-
 /************************* professor.html END ****************************/
+
+
+
 /************************* research.html ****************************/
 .section {
     padding: 20px;
 }
 /************************* research.html END ****************************/
+
+
+
 
 /************************* publication.html ****************************/
 th:nth-child(3) {
@@ -59,6 +64,7 @@ th:nth-child(3) {
     margin-bottom: 20px;
 }
 /************************* publication.html END ****************************/
+
 
 
 /************************* member.html ****************************/
@@ -93,8 +99,9 @@ h2.h2-section {
 }
 /************************* member.html END ****************************/
 
-/************************* contact.html ****************************/
 
+
+/************************* contact.html ****************************/
 #contact-info {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -159,8 +166,9 @@ h2.h2-section {
 }
 
 /************************* contact.html END ****************************/
-
 /** END home page **/
+
+
 
 /** footer **/
 .panel-footer {
@@ -171,5 +179,4 @@ h2.h2-section {
 #main-footer-description {
     margin: auto;
 }
-
 /** END footer **/
