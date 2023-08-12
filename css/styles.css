@@ -25,7 +25,7 @@ body {
 .portrait-prof {
     display: block;
     margin: auto;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     
 }
 .portrait-title {
